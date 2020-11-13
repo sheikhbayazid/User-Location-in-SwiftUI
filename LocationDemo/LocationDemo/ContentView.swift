@@ -57,28 +57,3 @@ struct ContentView_Previews: PreviewProvider {
 
 
 
-
-
-
-//
-//init() {
-//
-//    self.manager.delegate = self.managerDelegate
-//    do {
-//        try self.manager.requestAlwaysAuthorization()
-//
-//        //            if(CLLocationManager.authorizationStatus() == .authorizedWhenInUse ||
-//        //                CLLocationManager.authorizationStatus() == .authorizedAlways) {
-//        //                currentLoc = locationManager.location
-//        //                latitude = currentLoc.coordinate.latitude
-//        //                longitude = currentLoc.coordinate.longitude
-//        //
-//        //
-//        //            }
-//
-//    }
-//    catch {
-//        print(error.localizedDescription)
-//        self.manager.requestAlwaysAuthorization()
-//    }
-//}
